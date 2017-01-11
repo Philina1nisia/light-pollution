@@ -1,0 +1,29 @@
+#hero
+  .layer{“data-type” => “parallax”}
+  .layer{“data-type” => “parallax”}
+  .layer{“data-type” => “parallax”}
+  .layer{“data-type” => “parallax”}
+  .layer{“data-type” => “parallax”}
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+}
+
+.layer-01 {
+   background-image: url('img/ilu_01.png');
+}
+.layer-02 {
+   background-image: url(‘input_link_to_image_here');
+}
