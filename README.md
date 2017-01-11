@@ -5,4 +5,4 @@
 完成期限 1/ 18
 Paralax website
 
-設計圖：[設計圖](40485105I-Final/設計/整體設計.jpeg) 
+設計圖：![設計圖](https://github.com/Philina1nisia/40485105I-Final/blob/master/%E8%A8%AD%E8%A8%88/%E6%95%B4%E9%AB%94%E8%A8%AD%E8%A8%88.jpeg) 
