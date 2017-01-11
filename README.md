@@ -4,3 +4,4 @@
 
 完成期限 1/ 18
 Paralax website
+![設計圖](Philina1nisia.github.com/40485105I-Final/設計/整體設計.jpg)
