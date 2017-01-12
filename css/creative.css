@@ -41,12 +41,12 @@ body {
 }
 
 .layer-bg {
-    background-image: url('img/sky.jpg');
+    background-image: url('/img/sky.jpg');
       background-size: cover;
 }
 
 .layer-1 {
-    background-image: url('img/05.png');
+    background-image: url('/img/05.png');
     background-position: top;
     /*  background-position: left bottom;*/
     /*  background-size: cover;*/
@@ -55,32 +55,32 @@ body {
 }
 
 .layer-2 {
-    background-image: url('img/04.png');
+    background-image: url('/img/04.png');
     background-position: top;
     background-size:contain ;
 }
 
 .layer-3 {
-    background-image: url('img/03.png');
+    background-image: url('/img/03.png');
     /*  background-position: right bottom;*/
     background-position: bottom;
     background-size:contain ;
 }
 
 .layer-4 {
-    background-image: url('img/02.png');
+    background-image: url('/img/02.png');
     background-position: bottom;
     background-size:contain ;
 }
 
 .layer-5 {
-    background-image: url('img/01.png');
+    background-image: url('/img/01.png');
     background-position: bottom;
     background-size:contain ;
 }
 
 .layer-6 {
-    background-image: url('img/06.png');
+    background-image: url('/img/06.png');
     background-position: top;
     background-size:contain ;
 }
