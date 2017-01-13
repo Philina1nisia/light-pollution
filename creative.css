@@ -89,13 +89,13 @@ body {
 */
 
 .layer-6 {
-    background-image: url('/img/06.png');
+    background-image: url('img/06.png');
     background-position: top;
     background-size: contain;
 }
 
 .layer-7 {
-    background-image: url('/img/01.png');
+    background-image: url('img/01.png');
     background-position: bottom;
     background-size: contain;
 }
