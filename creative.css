@@ -144,25 +144,31 @@ p {
 */
 
 #title{
-   
+   position:relative; 
     width: 100%;
-    
+    z-index: 1;
 }
+
+
 
 #menua{
     float:left;
     position:absolute;   
-    width: 13%;
+    width: 13%; 
+    margin-top: -8px;
+    
 }
 #menua2{
     float:left;
     position:absolute;   
     width: 13%;
+    margin-top: -8px;
 }
 #menub{
     float:left;
     position:absolute;   
     width: 20%;
+    margin-top: -8px;
 }
 
 
