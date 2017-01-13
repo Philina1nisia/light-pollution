@@ -1,3 +1,8 @@
+@font-face {
+ font-family:myposter;
+ src: url('/myposter.ttf');
+} 
+
 body {
     padding: 0;
     margin: 0;
@@ -74,12 +79,14 @@ body {
     
 }
 
+/*
 .layer-5 {
     background-image: url('/img/01b.png');
     background-position: bottom;
-    background-size: contain;
+     background-size: contain;
     bottom: -37%;
 }
+*/
 
 .layer-6 {
     background-image: url('/img/06.png');
@@ -87,6 +94,11 @@ body {
     background-size: contain;
 }
 
+.layer-7 {
+    background-image: url('/img/01.png');
+    background-position: bottom;
+    background-size: contain;
+}
 
 /*
 .layer-overlay {
@@ -131,24 +143,27 @@ p {
 
 #content {
     background-color: black;
-    height: 5000px;
-}
-.container{
-    height: 100vh;
+    height: 1100vh;
+ 
 }
 
-section {
+.container{
+    height: 100vh;
     padding: 80px 0;
 }
 
+
 .section-heading {
-    margin-top: 0;
-font-size: 80px;
+    font-size: 100px;
+    font-family: myposter;
+    margin: 0px;
+    
 }
 
 hr {
     border-color: #F05F40;
     border-width: 3px;
+    margin: 0px;
     
 }
 
@@ -164,8 +179,34 @@ hr.light {
     font-size: 20px;
    margin-top: 80px;
      line-height: 50px;
+
 }
 
+.container_sm{
+    height: 100vh;
+    float: right;
+    width: 60vw;
+    margin-right: 5vw;
+}
+
+#type{
+    font-size: 20px;
+    float: right;
+    width: 60vw;
+    line-height: 50px;
+/*    margin-right: 5vw;*/
+}
+
+#effects{
+/*    clear:both;*/
+    font-size: 20px;
+    float: right;
+    width: 60vw;
+    line-height: 50px;
+}
+#notyet{
+    clear:both;
+}
 
 /*
 #hero-mobile {
@@ -252,6 +293,7 @@ aside {
 .service-box {
     max-width: 400px;
     margin: 50px auto 0;
+
 }
 
 @media (min-width: 992px) {
