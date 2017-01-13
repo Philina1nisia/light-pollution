@@ -139,11 +139,12 @@ p {
 
 #about {
     background-color: black;
+    clear: both;
 }
 
 #content {
     background-color: black;
-    height: 1100vh;
+    height: 1200vh;
  
 }
 
@@ -187,7 +188,15 @@ hr.light {
     float: right;
     width: 60vw;
     margin-right: 5vw;
+    clear: both;
+    display: table;   
 }
+
+.to_center{
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 #type{
     font-size: 20px;
