@@ -92,19 +92,35 @@
 	position:fixed;
 	top:0px;
 	width:100%; 
-	height:75px; 
+	height:50px; 
 	background-color:transparent;
 	color: #FFFFFF;
 	z-index:999;
 	display: none;
     list-style-type: none;
     overflow: hidden;
+    font-size: 20px;
 }
 
 
 
-#menusmall li {
+#menusmall .left {
     float: left;
+}
+#menusmall .middle {
+    width: 30%;
+    margin: 0 auto; 
+    text-align: center;
+    position: relative;
+    font-family: myposter;
+    font-size: 30px;
+    
+    
+}
+
+#menusmall .right {
+    float: right;
+    
 }
 
 #menusmall li a {
@@ -132,7 +148,7 @@ body {
     margin: 0;
     background-color: black;
     color: #fff;
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Microsoft JhengHei','Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #hero {
