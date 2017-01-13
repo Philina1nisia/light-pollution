@@ -1,6 +1,6 @@
 @font-face {
  font-family:myposter;
- src: url('/myposter.ttf');
+ src: url('\myposter.ttf');
 } 
 
 body {
