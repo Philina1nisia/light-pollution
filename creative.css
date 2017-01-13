@@ -3,6 +3,12 @@
  src: url('myposter.ttf');
 } 
 
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -137,9 +143,39 @@ p {
 
 */
 
+#title{
+   
+    width: 100%;
+    
+}
+
+#menua{
+    float:left;
+    position:absolute;   
+    width: 13%;
+}
+#menua2{
+    float:left;
+    position:absolute;   
+    width: 13%;
+}
+#menub{
+    float:left;
+    position:absolute;   
+    width: 20%;
+}
+
+
+a img#menua {display: inline}
+a img#menua2 {display: none}
+
+a:hover img#menua {display: none}
+a:hover img#menua2 {display: inline}
 #about {
     background-color: black;
     clear: both;
+    height: 100vh;
+    padding-top: 50px;
 }
 
 #content {
@@ -152,6 +188,7 @@ p {
     height: 100vh;
     padding: 80px 0;
 }
+
 
 
 .section-heading {
@@ -178,8 +215,9 @@ hr.light {
 .text-faded {
     color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
-   margin-top: 80px;
+   margin-top: 30px;
      line-height: 50px;
+
 
 }
 
@@ -255,12 +293,7 @@ hr.light {
     border-color: white;
 }
 
-a {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
-    color: #F05F40;
-}
+
 
 a:hover,
 a:focus {

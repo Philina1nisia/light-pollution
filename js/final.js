@@ -16,6 +16,9 @@ window.addEventListener('scroll', function(event) {
 });
 
 
+
+
+
 //
 //$(function(){
 //  $('#hero, .layer').css({ height: $(window).innerHeight() });
