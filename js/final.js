@@ -15,7 +15,40 @@ window.addEventListener('scroll', function(event) {
   }
 });
 
-
+(function($) { 
+    
+    $(document).ready(function(){    
+        var actualBottom = $(about2).offset().top + $(about2).outerHeight(true);
+    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > actualBottom) {
+                $('#menusmall').fadeIn(500);
+            } else {
+                $('#menusmall').fadeOut(500);
+            }
+        });
+    });
+})(jQuery);
+//
+//  $(document).ready(function(){
+//
+//    // hide .navbar first
+//    $("#menusmall").hide();
+//
+//    // fade in .navbar
+//    $(function () {
+//        $(window).scroll(function () {
+//
+//                 // set distance user needs to scroll before we start fadeIn
+//            if ($(this).scrollTop() > 100) {
+//                $('#menusmall').fadeIn();
+//            } else {
+//                $('#menusmall').fadeOut();
+//            }
+//        });
+//    });
+//
+//});
 
 
 
