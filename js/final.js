@@ -106,3 +106,71 @@ $(document).ready(function () {
         $('#type2').removeClass("animated fadeInRight slide");
     });
 });
+
+
+
+$(document).ready(function () {
+    var rotation = 0;
+    $(di1).click(function () {
+        $('#di_menu').css({
+            'transform': 'rotate(' + 0 + 'deg)'
+        })
+        $('#eff1').addClass("animated fadeInLeft slide")
+        $('#eff_head').css("visibility", "hidden")
+        $('#eff2').removeClass("animated fadeInLeft slide");
+        $('#eff3').removeClass("animated fadeInLeft slide");
+        $('#eff4').removeClass("animated fadeInLeft slide");
+   
+//        
+//        $('#type_head').css("visibility", "hidden");
+//        $('#type2').css("visibility", "visible");
+//        $('#type1').css("visibility", "hidden");
+//        $('#type3').css("visibility", "hidden");
+//        $('#type4').css("visibility", "hidden");
+//        $('#type5').css("visibility", "hidden");
+    });
+   
+       $(di_center).click(function () {
+        $('#di_menu').css({
+            'transform': 'rotate(' + 0 + 'deg)'
+        })
+        $('#eff_head').css("visibility", "visible")
+         $('#eff1').removeClass("animated fadeInLeft slide")
+        $('#eff2').removeClass("animated fadeInLeft slide")
+        $('#eff3').removeClass("animated fadeInLeft slide")
+        $('#eff4').removeClass("animated fadeInLeft slide")
+    }); 
+    
+    
+    $(di2).click(function () {
+        $('#di_menu').css({
+            'transform': 'rotate(' + 90 + 'deg)'
+        })
+        $('#eff2').addClass("animated fadeInLeft slide")
+        $('#eff_head').css("visibility", "hidden")
+        $('#eff1').removeClass("animated fadeInLeft slide")
+        $('#eff3').removeClass("animated fadeInLeft slide");
+        $('#eff4').removeClass("animated fadeInLeft slide");
+    });
+    $(di3).click(function () {
+        $('#di_menu').css({
+            'transform': 'rotate(' + 180 + 'deg)'
+        })
+       $('#eff3').addClass("animated fadeInLeft slide")
+        $('#eff_head').css("visibility", "hidden")
+        $('#eff2').removeClass("animated fadeInLeft slide")
+        $('#eff1').removeClass("animated fadeInLeft slide")
+        $('#eff4').removeClass("animated fadeInLeft slide")
+    });
+    $(di4).click(function () {
+        $('#di_menu').css({
+            'transform': 'rotate(' + 270 + 'deg)'
+        })
+     $('#eff4').addClass("animated fadeInLeft slide")
+        $('#eff_head').css("visibility", "hidden")
+        $('#eff2').removeClass("animated fadeInLeft slide")
+        $('#eff1').removeClass("animated fadeInLeft slide")
+        $('#eff3').removeClass("animated fadeInLeft slide")
+    });
+ 
+});
