@@ -421,6 +421,82 @@ a:hover img#menuc2 {
     background-color: black;
     height: 1200vh;
 }
+/*star*/
+#star_menu{
+    float: left;
+    position: relative;
+    z-index: 2;
+    top:3%;
+    
+}
+
+
+
+
+#star_center {
+/*    height: 45vh;*/
+    width: 25vw;
+    margin: 10px;   
+    position: relative;
+    z-index: 5;
+ 
+    
+   
+}
+#star_center:hover{
+    filter: brightness(120%);
+}
+
+.starpeak{
+/*    position: relative;*/
+        position: absolute;
+    z-index: 2;
+ 
+}
+
+.starpeak:hover{
+ filter: brightness(120%);
+ 
+}
+
+
+#star1{
+    top:-50%;
+    left: 20%;
+    width:60%;
+}
+
+
+
+#star2{
+    top:13%;
+    left: 50%;
+    width:80%;
+}
+
+
+#star3{
+    top:40%;
+    left: 45%;
+    width:60%;
+}
+
+#star4{
+    top:48%;
+    left: -3%;
+    width:50%;
+}
+
+#star5{
+    top:5%;
+    left: -32%;
+    width:80%;
+  
+}
+
+/*star_end*/
+
+
 
 .container {
     height: 100vh;
@@ -451,14 +527,35 @@ hr.light {
     line-height: 50px;
 }
 
-
-.container_sm {
-    height: 100vh;
+#type_head{height: 100vh;
     float: right;
     width: 60vw;
     margin-right: 5vw;
     clear: both;
     display: table;
+/*    position: absolute;*/
+}
+
+.container_sm {
+    height: 100vh;
+/*    float: right;*/
+    width: 60vw;
+/*    margin-right: 5vw;*/
+    clear: both;
+    display: table;
+    position: absolute;
+    right: 3vw;
+    visibility: hidden;
+}
+.container_sm2 {
+    height: 100vh;
+/*    float: right;*/
+    width: 60vw;
+/*    margin-right: 5vw;*/
+    clear: both;
+    display: table;
+    position: absolute;
+    right: 3vw;
 }
 
 .to_center {
@@ -473,6 +570,39 @@ hr.light {
     line-height: 50px;
     /*    margin-right: 5vw;*/
 }
+/*
+
+#type1{
+    visibility: hidden;
+}
+
+#type2{
+    visibility: hidden;
+}
+
+
+#type3{
+    visibility: hidden;
+}
+
+
+#type4{
+    visibility: hidden;
+}
+
+
+#type5{
+    visibility: hidden;
+}
+*/
+
+
+
+.slide{
+    visibility: visible;
+}
+
+
 
 #effects {
     /*    clear:both;*/
